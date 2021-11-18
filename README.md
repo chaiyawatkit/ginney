@@ -1,11 +1,11 @@
 # Ginney
 
 A library which build to be a Gin best friend. Ginney comes with the abilities to
-- Override the default log of Gin and make it becomes Rotot Application log format.
+- Override the default log of Gin and make it becomes  Application log format.
 - Manage the correlation id of Composite service and Microservice
 - Make a http request with the GET, POST and PUT methods. If the correlation id is in the context, ginney will automatically add it to the header of the request.
 
-## Ginney in Rotot Application project
+## Ginney in  Application project
 
 ```go
 // main.go in Composite Service
